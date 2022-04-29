@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 		url: `https://hapi-books.p.rapidapi.com/search/${req.query.title}`,
 		headers: {
 			'X-RapidAPI-Host': 'hapi-books.p.rapidapi.com',
-			'X-RapidAPI-Key': '501c776370msh8f72823bf521e48p171594jsn18b017bde7c9'
+			'X-RapidAPI-Key': ''
 		}
 	};
 	try {
